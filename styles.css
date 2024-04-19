@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+}
+.navbar-brand img{
+    width: 150px;
+}
+@media screen and (min-width: 600px) {
+    .heads {
+      justify-content: end;
+      display        : flex;
+    }
+  }
+
+@media screen and (max-width:776px) {
+    .forin {
+        padding-left: 90px;
+    }    
+}
+
+.heads li a:hover{
+    color: #fd1e1e !important;
+}
+.bg_1{
+    background-image: url(Assets/bnr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 568px;
+    filter: brightness(90%);
+}
+.bg_1 h1{
+    position: relative;
+    top: 200px;
+    text-shadow: 25px;
+    font-size: 78px;
+    font-weight: 1000 !important;
+ 
+    stroke-width: 3px;
+    
+}
+.content-1 h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #ff0000;
+    
+}
+
+.content-2 img{
+    border-radius: 100px 50px 100px 50px;
+    width: 300px;
+    height: 350px;
+    padding-bottom: 20px;
+}
+.trg{
+    height: 500px !important;
+    width: 100%;
+}
+.content-3 h1{
+    font-weight: 700;
+    color: #ff0000;
+}
+.indbut{
+    width: 249px;
+    height: 33px;
+    border-radius:0px !important;
+}
+.bhy{
+    font-weight: bold;
+    color: #000000;
+    
+    -webkit-text-stroke-color: #09a5ff;
+    -webkit-text-stroke-width: 1px;
+}
+
+.ofre{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ofrbg{
+    background-image: url(Assets/ofrd.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.bgme{
+    background-image: url(Assets/memsip.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: opacity(90%);
+}
+.bgme{
+    height: 650px;
+    display: flex;
+    align-items: end;
+    
+}
+@media screen and (max-width: 740px) {
+    .bgme h1, .care h1,.thank h1 {
+      font-size: 60px !important;
+    }
+  }
+.bgme h1,.psm h1, .clas h1, .nutr h1, .care h1, .loca h1, .care h1, .ofrbg span{
+    font-size: 74px ;
+    font-weight: 900;
+    
+}
+.lot h1{
+    font-size: 45px !important;
+    font-weight: 700;
+    color: black;
+}
+
+.psm{
+    background-image: url(Assets/personal\ training\ bnr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+    align-items: center; 
+}
+.lotm img{
+    border-radius: 10px;
+}
+
+.bell .card img{
+    height: 350px;
+}
+
+.clas{
+    background-image: url(Assets/class\ bnr.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.nutr{
+    background-image: url(Assets/nutr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+.nutr1 h1{
+    font-weight: 600;
+    font-size: 36px !important;
+    font-style: italic;
+}
+.nutr1 span{
+    font-weight: 800;
+    font-size: 44px;
+    font-style: italic;
+}
+
+
+
+.care{
+    background-image: url(Assets/caree.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center; 
+}
+
+.radi{
+    border-radius: 10px;
+}
+
+.loca{
+    background-image: url(Assets/location.jpg);
+    filter: opacity(90%), brightness(80%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 740px) {
+    .maph {
+      height: 70% !important;
+    }
+  }
+
+  .what{
+    height: 50px;
+    width: 50px;
+  }
+
+  .thank{
+    font-size: 74px;
+    font-weight: 600;
+  }
+  .res{
+    background-color: black;
+    height: 560px;
+    margin-top: 84px;
+    padding-top: 150px;
+  }
+
+  @media screen and (max-width: 740px) {
+    .res {
+      height: 450px!important;
+    }
+  }
+
+  .anch{
+    text-decoration: none;
+    color: #fd1e1e;
+  }
+  .anch:hover{
+    color: white !important;
+  }
+
+.tes{
+    border-radius: 100% !important;
+    height: 100px !important;
+    width: 100px !important;
+    ;
+    overflow: hidden;
+}
+.brt:hover{
+    color: #8b8b8b !important;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.ht img{
+    height: 200px;
+}
+.ht img:hover{
+    transform: scalex(1.08);
+    transition-duration: 50ms;   
+    transition: all 0.5s ease-in-out;
+    
+}
+.ht h6:hover{
+    cursor: pointer;
+    color: black;
+}
+.ht .card{
+    overflow: hidden;
+}
+.hh .card-img-top:hover{
+    transform: scale(1.08);
+    transition-duration: 50ms;   
+    transition: all 0.5s ease-in-out;
+}
+.hh .card{
+    overflow: hidden;
+}
+.cc .card:hover{
+    transform: scaleY(1.1);
+}
+
+.owl-nav .owl-prev{
+	font-size: xx-large !important;
+	background-color: #19273f;
+	margin-right: 12px;
+}
+.owl-nav .owl-next{
+	font-size: xx-large !important;
+	color: #19273f !important;
+	margin-left: 12px;
+}
+.owl-nav{
+	display: flex;
+	justify-content: center;
+}
+.owl-nav .owl-next, .owl-nav .owl-prev:hover{
+	color: #14469E !important;
+}
